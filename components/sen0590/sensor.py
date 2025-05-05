@@ -6,7 +6,6 @@ from esphome.const import (
     DEVICE_CLASS_DISTANCE,
     STATE_CLASS_MEASUREMENT,
     UNIT_CENTIMETER,
-    ICON_ARROW_EXPAND_HORIZONTAL,
 )
 
 DEPENDENCIES = ["i2c"]
@@ -20,7 +19,7 @@ CONFIG_SCHEMA = (
     sensor.sensor_schema(
         SEN0590Component,
         unit_of_measurement=UNIT_CENTIMETER,
-        icon=ICON_ARROW_EXPAND_HORIZONTAL,
+        icon="mdi:arrow-expand-horizontal",
         accuracy_decimals=1,
         device_class=DEVICE_CLASS_DISTANCE,
         state_class=STATE_CLASS_MEASUREMENT,
