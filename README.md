@@ -44,7 +44,7 @@ i2c:
 
 # Add the custom component directory
 external_components:
-  - source: github://sredfern/sen0590_esphome@main # Or local path: components/
+  - source: github://sredfern/sen0590_esphome@main
 
 # Sensor configuration
 sensor:
